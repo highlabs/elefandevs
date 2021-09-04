@@ -85,3 +85,18 @@ a {
 .hero-content h3 {
   margin: 10px 0;
 }
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 25%;
+  padding: 10px;
+}
+.card footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
