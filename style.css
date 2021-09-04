@@ -57,3 +57,31 @@ a {
   background: blue;
   color: white;
 }
+
+.hero {
+  text-align: center;
+  height: 420px;
+  width: 100%;
+  background-image: url('/images/hero.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  background: rgb(255, 255, 255, 0.7);
+  width: 100%;
+  padding: 30px 0;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero-content h3 {
+  margin: 10px 0;
+}
