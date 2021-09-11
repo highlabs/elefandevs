@@ -34,10 +34,12 @@
     <div class="product-list container">
       <div class="card">
         <header>
-          <img src="//placehold.it/600x420" alt="Produto 1">
+          <img src="//qwe.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -47,8 +49,10 @@
         <header>
           <img src="//placehold.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -58,8 +62,10 @@
         <header>
           <img src="//placehold.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -69,8 +75,10 @@
         <header>
           <img src="//placehold.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -80,8 +88,10 @@
         <header>
           <img src="//placehold.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -91,8 +101,10 @@
         <header>
           <img src="//placehold.it/600x420" alt="Produto 1">
         </header>
-        <h3>Nome do Produto</h3>
-        <p>Descrição do Produto</p>
+        <div class="content">
+          <h3>Nome do Produto</h3>
+          <p>Descrição do Produto</p>
+        </div>
         <footer>
           <span>R$1,99</span>
           <a href="#">Veja Mais</a>
@@ -100,15 +112,24 @@
       </div>
     </div>
     <div class="contact">
-      <form action="">
-        <label for="name">Nome</label>
-        <input type="text" id="name">
-        <label for="email">Email</label>
-        <input type="text" id="email">
-        <label for="message">Mensagem</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <div class="container">
+        <form action="">
+          <div class="form-input">
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+          </div>
+          <div class="form-input">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+          </div>
+          <div class="form-textarea">
+            <label for="message">Mensagem</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+  
+          <input class="btn-form" type="submit" value="Enviar">
+        </form>
+      </div>
     </div>
   </section>
   <footer>
